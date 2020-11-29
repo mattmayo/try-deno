@@ -1,4 +1,4 @@
-import { assertEquals } from "https://deno.land/std@0.79.0/testing/asserts.ts";
+import { assertEquals } from "../../deps.ts";
 import { capitalize, hello } from "../app.ts";
 
 Deno.test("Should capitize name when first letter lowercase", () => {
