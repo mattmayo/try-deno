@@ -20,7 +20,7 @@ deno test
 deno test --coverage --unstable
 
 # Run linter
-deno lint
+deno lint --unstable
 
 # Run formatter
 deno fmt --check
